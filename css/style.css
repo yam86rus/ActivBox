@@ -180,7 +180,8 @@ p {
 
 }
 
-/* Works */
+/* Works
+************************************/
 .works {
     display: flex;
     flex-wrap: wrap;
@@ -244,7 +245,8 @@ p {
     color: #fff;
 
 }
-/*Team*/
+/* Team
+************************************/
 .team {
     margin: 100px 0 70px;
 }
@@ -286,4 +288,40 @@ p {
     font-size: 14px;
     color: #6c7279;
     line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Social
+************************************/
+
+.social {
+    display: flex;
+
+}
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e8ecee;
+    margin-right: 4px;
+    background-color: #fff;
+    transition: background .1s linear;
+}
+
+.social__item:hover {
+    background-color: #e8ecee;
+}
+
+.social__item:hover .social__icon {
+    fill: #000;
+}
+
+.social__icon {
+    display: block;
+    height: 18px;
+    fill: #c6cacc;
+    transition: fill .1s linear;
 }
