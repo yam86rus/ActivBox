@@ -20,7 +20,7 @@ p {
 }
 
 /*Container
-************************************/
+========================================*/
 
 .container {
     width: 100%;
@@ -31,7 +31,7 @@ p {
 
 
 /* Header
-************************************/
+========================================*/
 
 .header {
     width: 100%;
@@ -51,7 +51,7 @@ p {
 }
 
 /* Nav
-************************************/
+========================================*/
 
 .nav {
     display: flex;
@@ -78,7 +78,7 @@ p {
 }
 
 /* Intro
-************************************/
+========================================*/
 
 .intro {
     display: flex;
@@ -118,8 +118,9 @@ p {
 }
 
 /* Button
-************************************/
+========================================*/
 .btn {
+    text-align: center;
     display: inline-block;
     vertical-align: top;
     font-size: 13px;
@@ -145,9 +146,12 @@ p {
     background: #dd3434;
 }
 
+.btn--long {
+    min-width: 280px;
+}
 
 /* Features
-************************************/
+========================================*/
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +185,7 @@ p {
 }
 
 /* Works
-************************************/
+========================================*/
 .works {
     display: flex;
     flex-wrap: wrap;
@@ -246,7 +250,7 @@ p {
 
 }
 /* Team
-************************************/
+========================================*/
 .team {
     margin: 100px 0 70px;
 }
@@ -292,10 +296,15 @@ p {
 }
 
 /* Social
-************************************/
+========================================*/
 
 .social {
     display: flex;
+
+}
+
+.social--footer {
+    justify-content: center;
 
 }
 
@@ -319,6 +328,21 @@ p {
     fill: #000;
 }
 
+.social--footer .social__item {
+    background: transparent;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 2px;
+
+}
+
+.social--footer .social__item:hover {
+    background-color: #ffffff;
+}
+.social--footer .social__icon {
+    fill: #ffffff;
+}
+
 .social__icon {
     display: block;
     height: 18px;
@@ -327,7 +351,7 @@ p {
 }
 
 /* reviews
-************************************/
+========================================*/
 .reviews {
     overflow: hidden;
     background-color: #53354A;
@@ -374,5 +398,93 @@ p {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* Download
+========================================*/
+
+.download {
+    margin: 90px 0;
+    text-align: center ;
+}
+
+.download__title {
+    font-size: 28px;
+    color: #2D3033;
+    font-weight: 300;
+    line-height: 1.3;
+
+    margin-bottom: 10px;
+}
+
+.download__text {
+    font-size: 13px;
+    color: #2D3033;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+}
+
+/* Footer
+========================================*/
+
+.footer {
+
+    background-color: #3A3E64;
+}
+.footer__inner {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__block {
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.footer__title {
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer__address {
+    font-size: 14px;
+    font-style: normal;
+    color: rgba(255,255,255, .5);
+    line-height: 1.5;
+
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255,255,255,.5);
+}
+
+
+
+/* Copyright
+========================================*/
+
+.copyright {
+    background-color: #313454;
+    padding: 20px 0;
+}
+
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.5;
+}
+
+.copyright__text span {
     color: #ffffff;
 }
