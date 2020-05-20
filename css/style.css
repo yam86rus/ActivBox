@@ -563,7 +563,21 @@ p {
 
     /* Navigation */
     .nav {
+        width: 100%;
+        text-align: right;
+        background-color: #31344e;
         display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 100%;
+    }
+
+    .nav.show {
+        display: flex;
+    }
+    .nav_link {
+        padding: 8px 15px;
     }
 
     /* Burger */
