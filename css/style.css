@@ -369,9 +369,19 @@ p {
     background-color: #53354A;
 }
 
+.reviews__slider {
+    height: 500px;
+    overflow: hidden;
+}
+
+.reviews__slider.slick-initialized {
+    height: auto;
+}
+
 .reviews__item {
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .reviews__photo {
@@ -411,6 +421,14 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.slick-dots{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
 }
 
 /* Download

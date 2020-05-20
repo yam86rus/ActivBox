@@ -51,4 +51,18 @@ $(function () {
         nav.toggleClass("show");
 
     });
+
+
+    // === Reviews ===
+    let slider = $("#reviewsSlider");
+
+        slider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
 });
